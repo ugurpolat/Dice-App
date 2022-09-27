@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31D5807028E387D2008203D0 /* Dice App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D5807028E387D2008203D0 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D5807328E387D2008203D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D5807528E387D2008203D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		31D5807728E387D2008203D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		31D5807128E387D2008203D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31D5807028E387D2008203D0 /* Dice App.app */,
+				31D5807028E387D2008203D0 /* Dice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31D5806F28E387D2008203D0 /* Dice App */ = {
+		31D5806F28E387D2008203D0 /* Dice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31D5808428E387D3008203D0 /* Build configuration list for PBXNativeTarget "Dice App" */;
+			buildConfigurationList = 31D5808428E387D3008203D0 /* Build configuration list for PBXNativeTarget "Dice" */;
 			buildPhases = (
 				31D5806C28E387D2008203D0 /* Sources */,
 				31D5806D28E387D2008203D0 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dice App";
+			name = Dice;
 			productName = "Dice App";
-			productReference = 31D5807028E387D2008203D0 /* Dice App.app */;
+			productReference = 31D5807028E387D2008203D0 /* Dice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31D5806F28E387D2008203D0 /* Dice App */,
+				31D5806F28E387D2008203D0 /* Dice */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = 333C6ALC74;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dice App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Dice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +319,7 @@
 				DEVELOPMENT_TEAM = 333C6ALC74;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dice App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Dice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -348,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31D5808428E387D3008203D0 /* Build configuration list for PBXNativeTarget "Dice App" */ = {
+		31D5808428E387D3008203D0 /* Build configuration list for PBXNativeTarget "Dice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31D5808528E387D3008203D0 /* Debug */,

@@ -1,24 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Greenbackground-2" translatesAutoresizingMaskIntoConstraints="NO" id="voS-qj-3Lw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="NGH-BA-fUd">
+                                <rect key="frame" x="80" y="74" width="254" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="dVc-Tf-Wt8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RF-TI-vTB">
+                                <rect key="frame" x="131" y="546" width="163" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="🎲 Roll Dice" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="26"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice-2" translatesAutoresizingMaskIntoConstraints="NO" id="sLT-M2-qG3">
+                                <rect key="frame" x="234" y="269" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice-1" translatesAutoresizingMaskIntoConstraints="NO" id="9kl-OV-Tgd">
+                                <rect key="frame" x="80" y="269" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="voS-qj-3Lw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4pH-l1-hn0"/>
+                            <constraint firstItem="NGH-BA-fUd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="NbD-0v-PK0"/>
+                            <constraint firstItem="voS-qj-3Lw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UBG-hh-l19"/>
+                            <constraint firstAttribute="bottom" secondItem="voS-qj-3Lw" secondAttribute="bottom" id="Xg2-DD-H2N"/>
+                            <constraint firstItem="voS-qj-3Lw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZFx-DL-031"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NGH-BA-fUd" secondAttribute="trailing" constant="80" id="mJ6-En-2Xj"/>
+                            <constraint firstItem="voS-qj-3Lw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rfJ-bL-qqk"/>
+                            <constraint firstItem="NGH-BA-fUd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="voJ-U9-zqK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="rollButton" destination="7RF-TI-vTB" id="3hP-ga-arZ"/>
+                        <outletCollection property="dices" destination="sLT-M2-qG3" collectionClass="NSMutableArray" id="eMZ-4a-yYb"/>
+                        <outletCollection property="dices" destination="9kl-OV-Tgd" collectionClass="NSMutableArray" id="ARX-AL-bLb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DiceeLogo" width="196" height="128"/>
+        <image name="Greenbackground-2" width="148" height="138"/>
+        <image name="dice-1" width="100" height="100"/>
+        <image name="dice-2" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
