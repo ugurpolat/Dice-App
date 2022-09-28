@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         rollButton.layer.cornerRadius = 20;
     }
 
-    @IBAction func clickRoll(_ sender: Any) {
+    @IBAction func clickedRoll(_ sender: Any) {
         dices[0].image = UIImage(named: "dice-\(randomNumber())");
         dices[1].image = UIImage(named: "dice-\(randomNumber())");
     }
