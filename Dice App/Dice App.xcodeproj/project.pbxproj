@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31AAB22E28EF751900522306 /* dice-rolling-on-table.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31AAB22D28EF751900522306 /* dice-rolling-on-table.wav */; };
 		31D5807428E387D2008203D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5807328E387D2008203D0 /* AppDelegate.swift */; };
 		31D5807628E387D2008203D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5807528E387D2008203D0 /* SceneDelegate.swift */; };
 		31D5807828E387D2008203D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5807728E387D2008203D0 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31AAB22D28EF751900522306 /* dice-rolling-on-table.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "dice-rolling-on-table.wav"; path = "../../../../Downloads/dice-rolling-on-table.wav"; sourceTree = "<group>"; };
 		31D5807028E387D2008203D0 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D5807328E387D2008203D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D5807528E387D2008203D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				31D5807C28E387D3008203D0 /* Assets.xcassets */,
 				31D5807E28E387D3008203D0 /* LaunchScreen.storyboard */,
 				31D5808128E387D3008203D0 /* Info.plist */,
+				31AAB22D28EF751900522306 /* dice-rolling-on-table.wav */,
 			);
 			path = "Dice App";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D5808028E387D3008203D0 /* LaunchScreen.storyboard in Resources */,
+				31AAB22E28EF751900522306 /* dice-rolling-on-table.wav in Resources */,
 				31D5807D28E387D3008203D0 /* Assets.xcassets in Resources */,
 				31D5807B28E387D2008203D0 /* Main.storyboard in Resources */,
 			);
