@@ -15,6 +15,8 @@
 		312F44A42AB5D23A00C29F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312F44A22AB5D23A00C29F1E /* LaunchScreen.storyboard */; };
 		312F44AC2AB6249B00C29F1E /* bg_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 312F44AB2AB6249B00C29F1E /* bg_video.mp4 */; };
 		31C456522AC0333E00130025 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C456512AC0333E00130025 /* BoardViewController.swift */; };
+		31E6A0EF2AC2C87F00198F15 /* shakeDice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31E6A0EE2AC2C87F00198F15 /* shakeDice.wav */; };
+		31E6A0F12AC2C93A00198F15 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6A0F02AC2C93A00198F15 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		312F44A52AB5D23A00C29F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312F44AB2AB6249B00C29F1E /* bg_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_video.mp4; sourceTree = "<group>"; };
 		31C456512AC0333E00130025 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		31E6A0EE2AC2C87F00198F15 /* shakeDice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakeDice.wav; sourceTree = "<group>"; };
+		31E6A0F02AC2C93A00198F15 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				312F44A02AB5D23A00C29F1E /* Assets.xcassets */,
 				312F44A22AB5D23A00C29F1E /* LaunchScreen.storyboard */,
 				312F44A52AB5D23A00C29F1E /* Info.plist */,
+				31E6A0EE2AC2C87F00198F15 /* shakeDice.wav */,
+				31E6A0F02AC2C93A00198F15 /* Player.swift */,
 			);
 			path = "Roll In";
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 				312F44A12AB5D23A00C29F1E /* Assets.xcassets in Resources */,
 				312F44AC2AB6249B00C29F1E /* bg_video.mp4 in Resources */,
 				312F449F2AB5D23900C29F1E /* Main.storyboard in Resources */,
+				31E6A0EF2AC2C87F00198F15 /* shakeDice.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +171,7 @@
 				312F449C2AB5D23900C29F1E /* OnBoardingViewController.swift in Sources */,
 				312F44982AB5D23900C29F1E /* AppDelegate.swift in Sources */,
 				312F449A2AB5D23900C29F1E /* SceneDelegate.swift in Sources */,
+				31E6A0F12AC2C93A00198F15 /* Player.swift in Sources */,
 				31C456522AC0333E00130025 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
